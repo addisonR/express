@@ -2,7 +2,7 @@
 
 // Definiendo módulo con sus depedencias
 
-angular.module('myApp', ['ngRou', 'myApp.filters', 'myApp.services', 'myApp.directives']).
+angular.module('myApp', ['ngRoute', 'myApp.filters', 'myApp.services', 'myApp.directives']).
 config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
   // Definiendo rutas de frontend
