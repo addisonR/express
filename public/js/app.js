@@ -17,7 +17,7 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
     controller: Page2Ctrl
   }).
   otherwise({
-    redirectTo: '/page1' // Si es una página diferente, redirecciona a página 1
+    redirectTo: '/page12' // Si es una página diferente, redirecciona a página 1
   });
 
   // html5mode true, para evitar el # en la url
