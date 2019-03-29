@@ -2,7 +2,7 @@
 
 // Definiendo módulo con sus depedencias
 
-angular.module('myApp', ['ngRoute', 'myApp.filters', 'myApp.services', 'myApp.directives']).
+angular.module('myApp', ['ngRou', 'myApp.filters', 'myApp.services', 'myApp.directives']).
 config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
   // Definiendo rutas de frontend
@@ -10,7 +10,7 @@ config(['$routeProvider', '$locationProvider', function($routeProvider, $locatio
   $routeProvider.
   when('/page1', { // Definiendo la ruta
     templateUrl: 'partials/page1', //Definiendo el tempate
-    controller: Page1Ctorl // Definiendo el controlador
+    controller: Page1Ctrl // Definiendo el controlador
   }).
   when('/page2', {
     templateUrl: 'partials/page2',
